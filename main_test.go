@@ -82,3 +82,13 @@ func TestCalculate_Positive3(t *testing.T) {
 	result := calculate(a, b, operand)
 	assert.Equal(t, result, expected)
 }
+
+func TestCalculate_Positive4(t *testing.T) {
+	a := 2
+	b := 2
+	operand := "/"
+	expected := 1
+
+	result := calculate(a, b, operand)
+	assert.Equal(t, result, expected)
+}
